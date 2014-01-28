@@ -7,4 +7,4 @@ Woostore is an open source app store or market place full stack solution with se
 NOTE
 ------
 
-**woostore** is not another e-commerce system but a utility app store/ app market full stack solution or scaffold project to speed up your own app store development .
+**woostore** is not another e-commerce system but an utility app store/ app market full stack solution or scaffold project to speed up your own app store development .

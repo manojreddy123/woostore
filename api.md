@@ -55,16 +55,21 @@ TODO
 <pre>
     {
     id:112,
-    name:'hello app',
-    intro:'',
+    softname:'业务名称',
+    itemname:'资源名称',
+    intro:'一句话介绍',
+    detail:'详细介绍',
+    iconUrl:''
+    remark:'编辑推荐语',
+    screenshot:'截图',
     author:'qq',
     keyword:'hello',
-    tags:'new,offcial,update',
+    tags:'new,offcial,update,editrec',
     
     versionName:'1.0',
     versionCode:'120',
     size:'12M',
-    iconUrl:''
+    fileMd5:'md5(downUrl file)',
     downUrl:'',
     downCount:222,
     commentCount:20,
@@ -72,6 +77,12 @@ TODO
     
     itemType:'',
     saleType:'free',
+    saleStatus:'new|onsale|offsale|delete',
     channel:1,
+
+    createTime:'',
+    lastActionName:'',
+    lastActionBy:'',
+    lastActionTime:'',
     }
 </pre>

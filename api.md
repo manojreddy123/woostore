@@ -52,7 +52,7 @@ TODO
 * 附录：
 
 1. Item 数据模型
-
+<pre>
     {
     id:112,
     name:'hello app',
@@ -74,3 +74,4 @@ TODO
     saleType:'free',
     channel:1,
     }
+</pre>

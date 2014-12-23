@@ -3,10 +3,10 @@ TODO
 * 分类详情模块 
 
 1.1 全部分类 
-/catalog
+/category
 
 1.2 分类内资源
-/catalog/catid
+/category/cid
 
 1.3 资源详情
 /item/info/id
@@ -24,13 +24,13 @@ TODO
 * 榜单列表模块
 
 2.1 资源排行榜
-/top/id  （下载排行，上升排行，最新上架排行）
+/top  （下载排行，上升排行，最新上架排行）
 
 2.2 专题列表 
 /feature
 
 2.3 专题内资源 
-/feature/id
+/feature/fid
 
 
 * 搜索推荐模块
@@ -70,6 +70,7 @@ TODO
     author:'qq',
     keyword:'hello',
     tags:'new,offcial,update,editrec',
+    categoryId:1,
     
     versionName:'1.0',
     versionCode:'120',

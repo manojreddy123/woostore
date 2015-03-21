@@ -51,12 +51,12 @@ TODO
 
 4.1 版本检测 自动更新（强制升级）
 4.2 用户反馈 
-4.3 数据反馈 
+4.3 数据上报 
 
 
 * 附录：
 
-1. Item 数据模型
+Item 数据模型
 <pre>
     {
     id:112,
@@ -91,4 +91,24 @@ TODO
     lastActionBy:'',
     lastActionTime:'',
     }
+</pre>
+Category分类数据模型
+<pre>
+ {
+    id:1,
+    name:,
+    parentCatId:,
+    order:
+ }
+</pre>
+评论数据模型
+<pre>
+{
+    id:,
+    itemId:,
+    status:,
+    message:,
+    device:,
+    createTime:,
+}
 </pre>

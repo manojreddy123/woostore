@@ -1,4 +1,3 @@
-TODO
 
 * 分类详情模块 
 
@@ -101,7 +100,7 @@ Category分类数据模型
     order:
  }
 </pre>
-评论数据模型
+Comment 评论数据模型
 <pre>
 {
     id:,

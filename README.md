@@ -6,7 +6,7 @@ Woostore is an open source app store or market place full stack solution with se
 
 ## TODO
 * WooStore api server
-* WooStore admin, account, billing server 
+* WooStore admin, account, billing server , developer
 * WooStore android app
 * WooStore ios app
 * WooStore web app in html5 

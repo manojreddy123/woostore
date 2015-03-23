@@ -97,7 +97,7 @@ Category分类数据模型
     id:1,
     name:,
     parentCatId:,
-    order:
+    orderIndex:
  }
 </pre>
 Comment 评论数据模型
@@ -109,5 +109,19 @@ Comment 评论数据模型
     message:,
     device:,
     createTime:,
+}
+</pre>
+Feature 专题数据模型
+<pre>
+{
+    id,
+    name,
+    detail,
+    itemListId,
+    featureType,
+    showType,
+    creator,
+    createtime,
+    modifytime,
 }
 </pre>

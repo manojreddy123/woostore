@@ -59,8 +59,9 @@ Item 数据模型
 <pre>
     {
     id:112,
-    softname:'业务名称',
-    itemname:'资源名称',
+    softname:'业务名称 如app的包名等',
+    itemname:'资源名称', 
+    displayName:'显示名称',
     intro:'一句话介绍',
     detail:'详细介绍',
     iconUrl:''
@@ -80,10 +81,12 @@ Item 数据模型
     commentCount:20,
     score:4.9,
     
-    itemType:'',
+    itemType:'下载类|购物类|服务类',
     saleType:'free',
     saleStatus:'new|onsale|offsale|delete',
     channel:1,
+    price: 1800.00,
+    specification:'红色|M码|男款',
 
     createTime:'',
     lastActionName:'',
@@ -115,13 +118,27 @@ Feature 专题数据模型
 <pre>
 {
     id,
-    name,
-    detail,
+    name:'内部命名，如 植树节专题',
+    intro:'编辑推荐语  一句话',
+    detail:'详细介绍，如活动参与方式等',
     itemListId,
-    featureType,
-    showType,
+    featureType:'专题类型',
+    showType:'前端展示类型，如网格，列表,banner 等',
+    fromTime:'生效时间',
+    toTime:'结束时间',
     creator,
-    createtime,
-    modifytime,
+    createTime,
+    modifyTime,
+}
+</pre>
+Author 数据模型
+<pre>
+{
+    id,
+    name,
+    companyName,
+    code,
+    contact,
+    createTime,
 }
 </pre>
